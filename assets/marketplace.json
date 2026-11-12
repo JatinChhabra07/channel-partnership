@@ -1,0 +1,13 @@
+{
+  "name": "channel-partnership-local",
+  "owner": {
+    "name": "channel-partnership skill"
+  },
+  "plugins": [
+    {
+      "name": "mem0",
+      "source": "./claude-code-mem0",
+      "description": "claude-code-mem0 @5e996ec + local patches (real Stop transcript, incremental save, secret redaction, uv deps)"
+    }
+  ]
+}
